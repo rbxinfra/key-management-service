@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<Description>Logic and operations implementation for Roblox.KeyManagement.Service</Description>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<InternalsVisibleTo Include="Roblox.KeyManagement.Service" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Roblox.Caching" Version="1.1.6" />
+		<PackageReference Include="Roblox.EventLog" Version="1.1.6" />
+		<PackageReference Include="Roblox.Operations" Version="1.1.6" />
+		<PackageReference Include="Roblox.Threading" Version="1.1.6" />
+		<PackageReference Include="VaultSharp" Version="1.13.0.1" />
+	</ItemGroup>
+
+</Project>
