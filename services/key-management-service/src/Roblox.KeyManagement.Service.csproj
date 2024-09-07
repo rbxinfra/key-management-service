@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<Description>Service implementation for the Key Management Service</Description>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Version>1.0.0</Version>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Roblox.ApplicationContext" Version="1.1.6" />
+    <PackageReference Include="Roblox.Vault" Version="1.1.6" />
+		<PackageReference Include="Roblox.Web.Framework.Services.Http" Version="1.1.8" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\..\..\libs\key-management\src\Roblox.KeyManagement.Logic.csproj" />
+	</ItemGroup>
+
+</Project>

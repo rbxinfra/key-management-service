@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Roblox.KeyManagement.Logic", "libs\key-management\src\Roblox.KeyManagement.Logic.csproj", "{27F9B231-11B7-4886-BAB5-C45FF0344634}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Roblox.KeyManagement.Service", "services\key-management-service\src\Roblox.KeyManagement.Service.csproj", "{8F66E79A-EE94-4A76-9868-9A128F5287A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27F9B231-11B7-4886-BAB5-C45FF0344634}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27F9B231-11B7-4886-BAB5-C45FF0344634}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27F9B231-11B7-4886-BAB5-C45FF0344634}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27F9B231-11B7-4886-BAB5-C45FF0344634}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F66E79A-EE94-4A76-9868-9A128F5287A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F66E79A-EE94-4A76-9868-9A128F5287A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F66E79A-EE94-4A76-9868-9A128F5287A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F66E79A-EE94-4A76-9868-9A128F5287A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F477336C-D5E6-4B39-9D5D-E68FDD0F513A}
+	EndGlobalSection
+EndGlobal
